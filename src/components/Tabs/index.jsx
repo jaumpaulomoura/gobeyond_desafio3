@@ -20,19 +20,19 @@ function Tabs() {
         <div className={`tab1 tab ${tab == 1 ? 'active' : ''}`}>
           <ul>
             <li>
-              <a href="">
+              <a href="https://github.com/jaumpaulomoura/gobeyond_desafio1">
                 <img src="/assets/desafio1.jpg" alt="Desafio 1" />
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="https://github.com/jaumpaulomoura/js_gobyond">
                 <img src="/assets/desafio2.png" alt="Desafio 2" />
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="https://github.com/jaumpaulomoura/gobeyond_desafio3">
                 <img src="/assets/desafio3.jpg" alt="Desafio 3" />
               </a>
             </li>
@@ -42,13 +42,13 @@ function Tabs() {
         <div className={`tab2 tab ${tab == 2 ? 'active' : ''}`}>
           <ul>
             <li>
-              <a href="">
+              <a href="https://loja.chillibeans.com.br/">
                 <img src="/assets/chilibeans.jpg" alt="Chilibeans" />
               </a>
             </li>
 
             <li>
-              <a href="">
+              <a href="https://www.corebiz.ag/pt/">
                 <img src="/assets/corebiz.jpg" alt="Corebiz" />
               </a>
             </li>
