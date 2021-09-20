@@ -8,16 +8,16 @@ function Tabs() {
   return (
     <>
       <ul className="tabs">
-        <li className={`tab1 ${tab == 1 ? 'active' : ''}`}>
+        <li className={`tab1 ${tab === 1 ? 'active' : ''}`}>
           <button onClick={() => setTab(1)}>Github</button>
         </li>
-        <li className={`tab2 ${tab == 2 ? 'active' : ''}`}>
+        <li className={`tab2 ${tab === 2 ? 'active' : ''}`}>
           <button onClick={() => {setTab(2)}}>Clientes Corebiz</button>
         </li>
       </ul>
 
       <div className="tab-content">
-        <div className={`tab1 tab ${tab == 1 ? 'active' : ''}`}>
+        <div className={`tab1 tab ${tab === 1 ? 'active' : ''}`}>
           <ul>
             <li>
               <a href="https://github.com/jaumpaulomoura/gobeyond_desafio1">
@@ -39,10 +39,10 @@ function Tabs() {
           </ul>
         </div>
 
-        <div className={`tab2 tab ${tab == 2 ? 'active' : ''}`}>
+        <div className={`tab2 tab ${tab === 2 ? 'active' : ''}`}>
           <ul>
             <li>
-              <a href="https://loja.chillibeans.com.br/">
+              <a href="https://loja.chillibeans.com.br/git">
                 <img src="/assets/chilibeans.jpg" alt="Chilibeans" />
               </a>
             </li>
